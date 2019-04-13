@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\RFID\4代码修改编译\2-核对实验代码RFID-FCC，比对工具使用学习\STC11F32_RC522\prj\STC89_RC522.uvproj
+Project File Date:  04/13/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+BL51 BANKED LINKER/LOCATER V5.12 - SN: Eval Version
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2004
+"STARTUP.obj",
+".\ctrl.obj",
+".\main.obj",
+".\rc522.obj",
+".\timer.obj",
+".\uart.obj",
+".\key.obj",
+".\lcd12864.obj" 
+TO "STC11_RC522" 
+RAMSIZE(256) 
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 1AF9H BYTE (337%) *
+******************************************************************************
+Program Size: data=15.1 xdata=203 code=8884
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
+*** FATAL ERROR L250: CODE SIZE LIMIT IN RESTRICTED VERSION EXCEEDED
+    MODULE:  C:\KEIL\C51\LIB\C51L.LIB (-----)
+    LIMIT:   0800H BYTES
+Target not created
